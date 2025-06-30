@@ -2,17 +2,17 @@
 # 🧠 AI Study Notes Maker
 
 ```bash
-# 📌 Internship Context
-# Built as part of the Prodigal AI Internship – Day 16 to 30.
-# Objective: Learn AI agents using LangChain, CrewAI, HuggingFace, and Pydantic.
-# Goal: Build a simple, modular tool that summarizes .txt files using open-source LLMs.
+ 📌 Internship Context
+ Built as part of the Prodigal AI Internship – Day 16 to 30.
+ Objective: Learn AI agents using LangChain, CrewAI, HuggingFace, and Pydantic.
+ Goal: Build a simple, modular tool that summarizes .txt files using open-source LLMs.
 
 # ✅ Highlights:
-# - Agent-based architecture
-# - LLM-powered summarization
-# - No API keys required
-# - Offline, CPU-compatible
-# - Practical real-world automation
+ - Agent-based architecture
+ - LLM-powered summarization
+ - No API keys required
+ - Offline, CPU-compatible
+ - Practical real-world automation
 ```
 
 # 📦 Installation
@@ -39,16 +39,16 @@ python agent.py
 ```
 # 📂 Project Structure
 ```bash
-# ai-study-notes-maker/
-# ├── agent.py                 # Main summarizer logic
-# ├── input_files/             # Input folder for raw .txt files
-# ├── output_notes/            # Folder for summarized output
-# ├── requirements.txt         # Dependencies
-# ├── README.md                # You’re reading this
-# ├── crewai_agents/           # Optional: CrewAI-based architecture
-# │   └── summarizer_crew.py   # Agents, tasks, crew logic
-# └── langchain_agents/        # Optional: LangChain-based pipeline
-#     └── summarizer_chain.py  # LLMChain with prompt logic
+ai-study-notes-maker/
+ ├── agent.py                 # Main summarizer logic
+ ├── input_files/             # Input folder for raw .txt files
+ ├── output_notes/            # Folder for summarized output
+ ├── requirements.txt         # Dependencies
+ ├── README.md                # You’re reading this
+ ├── crewai_agents/           # Optional: CrewAI-based architecture
+ │   └── summarizer_crew.py   # Agents, tasks, crew logic
+ └── langchain_agents/        # Optional: LangChain-based pipeline
+     └── summarizer_chain.py  # LLMChain with prompt logic
 ```
 # 📖 Example
 ```bash
@@ -66,37 +66,37 @@ python agent.py
 ```
 # ✨ Features
 ```bash
-# ✅ Simple text-to-summary AI agent
-# ✅ Accepts flexible input (.txt)
-# ✅ Outputs clean, simplified notes
-# ✅ Works offline (no API)
-# ✅ Supports CrewAI and LangChain agent systems
+ ✅ Simple text-to-summary AI agent
+ ✅ Accepts flexible input (.txt)
+ ✅ Outputs clean, simplified notes
+ ✅ Works offline (no API)
+ ✅ Supports CrewAI and LangChain agent systems
 ```
 # 🧩 Agent Architectures 
 ```bash
-# CrewAI Version:
-# crewai_agents/summarizer_crew.py
-# → Modular agents: File Loader, Preprocessor, Summarizer
-# → CrewAI orchestrates flow of tasks
+ CrewAI Version:
+ crewai_agents/summarizer_crew.py
+ → Modular agents: File Loader, Preprocessor, Summarizer
+ → CrewAI orchestrates flow of tasks
 
-# LangChain Version:
-# langchain_agents/summarizer_chain.py
-# → LLMChain + prompt template
-# → Simple linear summarization pipeline
+ LangChain Version:
+ langchain_agents/summarizer_chain.py
+ → LLMChain + prompt template
+ → Simple linear summarization pipeline
 ```
 # 🔮 Future Enhancements
 ```bash
-# - Add PDF and Word document support
-# - Streamlit/Gradio UI
-# - Extractive summaries with highlights
-# - Adjustable summary length
+ - Add PDF and Word document support
+ - Streamlit/Gradio UI
+ - Extractive summaries with highlights
+ - Adjustable summary length
 ```
 # 🤝 Contributing
 ```bash
-# Fork the repo
-# Add new agent pipelines or UI
-# Commit with docs
-# Submit a PR
+ Fork the repo
+ Add new agent pipelines or UI
+ Commit with docs
+ Submit a PR
 ```
 # 📄 License
 ```bash
