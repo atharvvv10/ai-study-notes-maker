@@ -23,6 +23,11 @@ cd ai-study-notes-maker
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Make sure you have Ollama installed:
+https://ollama.com/download
+
+# Then run it one your command prompt or terminal
 ```
 # 🚀 Usage
 ```bash
