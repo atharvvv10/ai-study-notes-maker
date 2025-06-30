@@ -100,6 +100,6 @@ ai-study-notes-maker/
 ```
 # 📄 License
 ```bash
-# MIT License © 2025 — Atharv
+ MIT License © 2025 — Atharv
 
 ```
