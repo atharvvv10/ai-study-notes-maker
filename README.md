@@ -2,7 +2,7 @@
 # 🧠 AI Study Notes Maker
 
 ```bash
- 📌 Internship Context
+ 📌 Internship Context - 
  Built as part of the Prodigal AI Internship – Day 16 to 30.
  Objective: Learn AI agents using LangChain, CrewAI, HuggingFace, and Pydantic.
  Goal: Build a simple, modular tool that summarizes .txt files using open-source LLMs.
@@ -53,10 +53,10 @@ ai-study-notes-maker/
 # 📖 Example
 ```bash
 # Input (input_files/topic.txt):
-# Artificial Intelligence (AI) is the simulation of human intelligence processes by machines...
+ Artificial Intelligence (AI) is the simulation of human intelligence processes by machines...
 
 # Output (output_notes/topic_summary.txt):
-# AI refers to machines mimicking human intelligence such as learning, reasoning, and decision making.
+ AI refers to machines mimicking human intelligence such as learning, reasoning, and decision making.
 ```
 # 🧪 Model Used
 ```bash
@@ -93,10 +93,10 @@ ai-study-notes-maker/
 ```
 # 🤝 Contributing
 ```bash
- Fork the repo
- Add new agent pipelines or UI
- Commit with docs
- Submit a PR
+ -Fork the repo
+ -Add new agent pipelines or UI
+ -Commit with docs
+ -Submit a PR
 ```
 # 📄 License
 ```bash
