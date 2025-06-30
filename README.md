@@ -1,15 +1,17 @@
+```bash
 # 🧠 AI Study Notes Maker
 
 # 📌 Internship Context
-# This project was built as part of the Prodigal AI Internship – Day 16 to 30.
-# Focus was on learning agent-based systems using LangChain, CrewAI, and HuggingFace.
-# Not a large product — just a clean demo of agent-based summarization using open-source LLMs.
+# Built as part of the Prodigal AI Internship – Day 16 to 30.
+# Objective: Learn AI agents using LangChain, CrewAI, HuggingFace, and Pydantic.
+# Goal: Build a simple, modular tool that summarizes .txt files using open-source LLMs.
 
-# ✅ Goals:
-# - Understand agent-based architecture
-# - Use HuggingFace + LLMs for real-world utilities
-# - Build a text summarization agent
-# - Maintain clean, modular code for learning and reuse
+# ✅ Highlights:
+# - Agent-based architecture
+# - LLM-powered summarization
+# - No API keys required
+# - Offline, CPU-compatible
+# - Practical real-world automation
 
 # 📦 Installation
 
@@ -17,66 +19,80 @@
 git clone https://github.com/atharvvv10/ai-study-notes-maker.git
 cd ai-study-notes-maker
 
-# Install required dependencies
+# Install dependencies
 pip install -r requirements.txt
 
 # 🚀 Usage
 
-# Step 1: Place your .txt file inside the input_files/ folder
-# Step 2: Run the summarizer
+# 1. Place any .txt file into the input_files/ directory
+# 2. Run the summarizer
 python agent.py
 
-# Output: Summarized notes will be saved inside output_notes/ with '_summary.txt' suffix
+# Output will be stored inside output_notes/ with filename: <original>_summary.txt
 
 # 📂 Project Structure
 
 # ai-study-notes-maker/
-# ├── agent.py               # Core AI logic (file reading, summarization, output writing)
-# ├── input_files/           # Input folder for raw .txt files
-# ├── output_notes/          # Output folder for summarized notes
-# ├── requirements.txt       # Python dependency list
-# ├── crewai_agents/         # CrewAI-based agent architecture (optional)
-# │   └── summarizer_crew.py # Defines agents, tasks, and workflows using CrewAI
-# ├── langchain_agents/      # LangChain-based summarization pipeline (optional)
-# │   └── summarizer_chain.py# Uses LLMChain for lightweight summarization
-# └── README.md              # This file
-
-# 🧪 Model Used
-
-# Uses HuggingFace Transformers: google/flan-t5-base or flan-t5-large
-# Model loaded via: pipeline("text2text-generation")
-# Offline, CPU-friendly — no API key needed
+# ├── agent.py                 # Main summarizer logic
+# ├── input_files/             # Input folder for raw .txt files
+# ├── output_notes/            # Folder for summarized output
+# ├── requirements.txt         # Dependencies
+# ├── README.md                # You’re reading this
+# ├── crewai_agents/           # Optional: CrewAI-based architecture
+# │   └── summarizer_crew.py   # Agents, tasks, crew logic
+# └── langchain_agents/        # Optional: LangChain-based pipeline
+#     └── summarizer_chain.py  # LLMChain with prompt logic
 
 # 📖 Example
 
 # Input (input_files/topic.txt):
-# Artificial Intelligence (AI) is the simulation of human intelligence by machines...
+# Artificial Intelligence (AI) is the simulation of human intelligence processes by machines...
 
 # Output (output_notes/topic_summary.txt):
-# AI is machines imitating human intelligence such as learning, reasoning, and problem-solving.
+# AI refers to machines mimicking human intelligence such as learning, reasoning, and decision making.
+
+# 🧪 Model Used
+
+# Model: google/flan-t5-base OR flan-t5-large
+# Inference: HuggingFace pipeline("text2text-generation")
+# No API key, runs on CPU
 
 # ✨ Features
 
-# ✅ Accepts .txt input
-# ✅ Outputs structured, summarized study notes
-# ✅ No external API calls — fully offline
-# ✅ Uses HuggingFace model via pipeline
-# ✅ Optional use of CrewAI / LangChain agents
-# ✅ Minimal, easy to understand and extend
+# ✅ Simple text-to-summary AI agent
+# ✅ Accepts flexible input (.txt)
+# ✅ Outputs clean, simplified notes
+# ✅ Works offline (no API)
+# ✅ Supports CrewAI and LangChain agent systems
+
+# 🧩 Agent Architectures (Optional)
+
+# CrewAI Version:
+# crewai_agents/summarizer_crew.py
+# → Modular agents: File Loader, Preprocessor, Summarizer
+# → CrewAI orchestrates flow of tasks
+
+# LangChain Version:
+# langchain_agents/summarizer_chain.py
+# → LLMChain + prompt template
+# → Simple linear summarization pipeline
 
 # 🔮 Future Enhancements
 
-# - Add support for PDF and DOCX input
-# - Add UI using Streamlit or Gradio
-# - Add highlight-based summarization
-# - Allow user-defined summarization length (short/medium/long)
+# - Add PDF and Word document support
+# - Streamlit/Gradio UI
+# - Extractive summaries with highlights
+# - Adjustable summary length
 
 # 🤝 Contributing
 
-# Fork the repository
-# Make your changes / improvements
-# Push and create a pull request with proper documentation
+# Fork the repo
+# Add new agent pipelines or UI
+# Commit with docs
+# Submit a PR
 
 # 📄 License
 
-# MIT License © 2025 — Atharv & Nikhil
+# MIT License © 2025 — Atharv
+
+```
